@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving our image </title>
+    <button><a href="./final project.html">back</a></button>
+    <link rel="stylesheet" href="css/moveable image.css"/>
+</head>
+<body>
+    <header><h1>Move a meme</h1></header>
+    <nav>
+        <h2>
+            <button><a href="./index.html">index</a></button> |
+        <button><a href="./script.3.html">Palindrome</a></button> |
+        <button><a href="./boards.html">boards</a></button> |
+        <button><a href="./game2.0.html">Rock, Paper, Scissors</a></button>
+        <button><a href="./script.with_audio.html">Calming music</a></button>
+        </h2>
+        
+    
+    </nav>
+    <button onclick="startMoving('right')">Move Right</button>
+    <button onclick="startMoving('left')">Move Left</button>
+    <button onclick="startMoving('up')">Move Up</button>
+    <button onclick="startMoving('down')">Move Down</button>
+    <button onclick="stopMoving()">Stop</button>
+    <div id="container">
+        <img id="movableImage" src="img/slothmeme.JPG" />
+    </div>
+    <script src="javascript/movefuction.js"></script>
+</body>
+</html>

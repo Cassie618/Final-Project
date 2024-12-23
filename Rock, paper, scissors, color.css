@@ -1,0 +1,34 @@
+
+/*decloration block:
+
+selector{
+    property: value;
+    Property2: value;
+    property3: value;
+}
+*/
+body{
+    background-color: pink;
+    color:darkcyan;
+}
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+#slothmeme{
+    margin-right: 200px;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    color:rgb(65, 64, 64);
+font-style:italic;}
